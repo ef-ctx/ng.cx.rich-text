@@ -1,0 +1,15 @@
+@ngdoc overview
+@name API Reference
+@description
+
+# ng.cx.rich-text API Reference
+
+> Welcome to the **ng.cx.rich-text** API reference.
+
+If you want to know how **ng.cx.rich-text** works, checkout the {@link guide/ guide} and the {@link demos/ demos}.
+
+
+## Modules
+
+- **[ng.cx.rich-text](#/api/ng.cx.rich-text)** - Provides a configurable service that divides numbers by X, as well as a directive and a filter.
+

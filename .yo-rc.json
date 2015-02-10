@@ -1,0 +1,28 @@
+{
+  "generator-nglib": {
+    "github.username": "ef-ctx",
+    "license.name": "MIT",
+    "license.url": "https://raw.githubusercontent.com/EFEducationFirstMobile/oss/master/LICENSE",
+    "author.name": "EF CTX",
+    "author.email": "ctx@ef.com",
+    "author.url": "http://ef.com",
+    "has.sass": false,
+    "use.travis": true,
+    "project.name": "ng.cx.rich-text",
+    "project.description": "A barebones rich text editor for AngularJS",
+    "bower.id": "ng.cx.rich-text",
+    "npm.id": "ng.cx.rich-text",
+    "angular.module": "ng.cx.rich-text",
+    "has.tpl": true,
+    "has.css": false,
+    "has.less": true,
+    "has.docs": true,
+    "use.git": true,
+    "github.reponame": "ng.cx.rich-text",
+    "homepage.url": "https://github.com/ef-ctx/ng.cx.rich-text",
+    "docs.url": "https://github.com/ef-ctx/ng.cx.rich-text",
+    "bugs.url": "https://github.com/ef-ctx/ng.cx.rich-text/issues",
+    "travis.id": "ef-ctx/ng.cx.rich-text",
+    "repo.url": "git@github.com:ef-ctx/ng.cx.rich-text.git"
+  }
+}

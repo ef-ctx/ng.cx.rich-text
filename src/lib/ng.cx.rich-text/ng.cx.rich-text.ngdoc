@@ -1,0 +1,39 @@
+@ngdoc overview
+@name ng.cx.rich-text
+@description
+
+> A barebones rich text editor for AngularJS
+
+# Dependencies
+
+- None.
+
+
+# Usage
+
+
+## Configuration
+
+Configure the {@link ng.cx.rich-text.cxRichText service} by invoking `configure()` on the {@link ng.cx.rich-text.cxRichTextProvider provider}
+during the config phase of your app.
+
+<pre>
+angular.module('app', ['ng.cx.rich-text'])
+.config(['cxRichTextProvider', function (cxRichTextProvider) {
+    cxRichTextProvider.configure(....);
+}])
+</pre>
+
+
+
+## Service
+
+Use the {@link ng.cx.rich-text.cxRichText cxRichText} service by injecting it into your controllers or services.
+
+<pre>
+angular.module('app', ['ng.cx.rich-text'])
+.service(['yourService', function (cxRichText) {
+    var myValue = cxRichText.someMethod();
+}])
+</pre>
+
